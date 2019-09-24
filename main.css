@@ -14,6 +14,13 @@
 
 a {
   color: #e84610;
-  font-size: 16px;
+  font: arial;
+  font-size: 30px;
   text-decoration: none;
+  transition-property: color;
+  transition-duration: 2s;
+}
+
+a:hover {
+    color: #000;
 }
